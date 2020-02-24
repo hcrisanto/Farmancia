@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 
 namespace BL.InventarioFarmacia
 {
-   public class ClienteBL
+public  class ClienteBL
     {
-        public BindingList<Cliente> ListadeClientes { get; set; }
+
+        public BindingList<Cliente> ListadeClientes{ get; set; }
 
         public ClienteBL()
         {
-            ListadeClientes = new BindingList<Cliente>();
-
-
+            ListadeClientes= new BindingList<Cliente>();
+            
+                    
             var cliente1 = new Cliente();
 
             cliente1.Id = 01;
@@ -23,7 +24,7 @@ namespace BL.InventarioFarmacia
             cliente1.Apellido = "Lozano";
             cliente1.Direccion = "Puerto Cortes";
             cliente1.Edad = "23";
-
+           
 
 
 
@@ -75,8 +76,9 @@ namespace BL.InventarioFarmacia
             public string Apellido { get; set; }
             public string Direccion { get; set; }
             public string Edad { get; set; }
-
+           
 
         }
     }
+
 }

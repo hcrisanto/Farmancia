@@ -26,26 +26,24 @@ namespace BL.InventarioFarmacia
             ListadeUsusarios.Add(usuario1);
             ListadeUsusarios.Add(usuario2);
         }
-        public bool Autorizar(string usuario1, string contrasena1)
+      public  bool Autorizar(string usuario1, string contrasena1 )
 
         {
             if (usuario1 == "admin" && contrasena1 == "123")
             {
                 return true;
-            }
-            else
+            } else
 
             {
                 if (usuario1 == "administrator" && contrasena1 == "4567")
 
                 {
                     return true;
-                }
-
             }
+
+          }
 
             return false;
         }
     }
 }
-

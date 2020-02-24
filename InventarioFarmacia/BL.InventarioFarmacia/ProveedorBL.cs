@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BL.InventarioFarmacia
 {
-    public class ProveedorBL
+   public class ProveedorBL
     {
         public BindingList<Proveedor> ListadeProvedores { get; set; }
 
@@ -17,11 +17,11 @@ namespace BL.InventarioFarmacia
 
             var proveedor1 = new Proveedor();
 
-            proveedor1.RTN = 1084 - 1988 - 01147;
+            proveedor1.RTN = 1084-1988-01147;
             proveedor1.Empresa = "Industrias Chamer";
             proveedor1.Direccion = "San Pedro Sula, Cortes";
             proveedor1.Telefono = "00-00-00-00";
-            proveedor1.Disponible = true;
+            proveedor1.Disponible= true;
 
 
 

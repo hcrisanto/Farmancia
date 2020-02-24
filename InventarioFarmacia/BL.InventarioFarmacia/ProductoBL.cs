@@ -9,7 +9,7 @@ namespace BL.InventarioFarmacia
 {
    public class ProductoBL
     {
-        public BindingList<Producto> ListaProductos { get; set; }
+       public BindingList<Producto> ListaProductos { get; set; }
 
         public ProductoBL()
         {
@@ -19,9 +19,9 @@ namespace BL.InventarioFarmacia
 
             producto1.Id = 01;
             producto1.Medicamento = "Acetaminofen";
-            producto1.Descripcion = "Para dolor de cabeza.";
-            producto1.Precio = 5;
-            producto1.Litera = " A ";
+            producto1.Descripcion= "Para dolor de cabeza.";
+            producto1.Precio = 5 ;
+            producto1.Litera = " A " ;
             producto1.Existencia = 50;
             producto1.Disponible = true;
 
@@ -88,4 +88,3 @@ namespace BL.InventarioFarmacia
 
     }
 }
-
