@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BL.InventarioFarmacia
 {
-    public class Class1
+    class Usurario
     {
     }
 }
