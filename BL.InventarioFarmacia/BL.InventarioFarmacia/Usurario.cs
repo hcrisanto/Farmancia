@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BL.InventarioFarmacia
 {
-    class Usurario
+   public class Usurario
     {
+        //propiedades para el usuario
+        public string Nombre { get; set; }
+        public string Contraseña { get; set; }
     }
 }
